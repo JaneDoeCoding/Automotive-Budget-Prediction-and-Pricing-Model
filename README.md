@@ -32,17 +32,18 @@ The project aims to achieve the following goals:
 
 4.Use Cases
 
-  For Car Buyers
+For Car Buyers:
   
-    •	When users are interested in buying a car but are unsure of their budget, the model can estimate a recommended budget based on user data such as Annual Salary, Net Worth, and Age.
+  •When users are interested in buying a car but are unsure of their budget, the model can estimate a recommended budget based on user data such as Annual Salary, Net Worth, and Age.
     
-  For Car Sales Personnel
+For Car Sales Personnel:
   
-    •	Predict potential customers’ budgets
+  •	Predict potential customers’ budgets
     
-    •	Reference recommended pricing and sales strategies
+  •	Reference recommended pricing and sales strategies
     
-    •	Help improve the likelihood of closing a sale
+  •	Help improve the likelihood of closing a sale
+
 
 5.Methodology
 
@@ -74,15 +75,8 @@ This project uses a combination of machine learning and reinforcement learning m
   
 6.Data Source
 
-•	All data used in this project come from publicly available datasets
+All data used in this project come from publicly available datasets
 
-•	Data types (abstract description) include:
-
-  o	Consumer feature data
-  
-  o	Vehicle attributes and pricing information
-  
-  o	Market behavior-related variables
 
 7.Model Outputs
 
