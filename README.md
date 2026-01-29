@@ -90,21 +90,14 @@ The model can produce the following outputs:
   
   •	Performance of different pricing strategies in the simulation environment in terms of profit and conversion rate
 
-8.Project Structure
 
-├── data/                # Datasets
-├── notebooks/           # Data analysis and model experiments
-├── models/              # Trained model files
-├── simulation/          # Sales simulation and reinforcement learning environment
-├── README.md
-
-9.Limitations
+8.Limitations
 
   •	Public datasets may have limitations in accuracy and completeness
   
   •	Reinforcement learning is based on a simulated market environment
   
-10.Future Work
+9.Future Work
 
   •	Use larger-scale, real-time market data
   
