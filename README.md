@@ -11,11 +11,7 @@ The model can help potential car buyers estimate their budget and provide car sa
 
 This project was inspired by my previous work experience at a technology company under a car manufacturer. During that time, I participated in the development of an automotive marketing model designed to help car manufacturers:
 
-  •	Develop precise marketing strategies
-  
-  •	Increase brand awareness and market share
-  
-  •	Improve sales conversion rates and overall sales performance
+Develop precise marketing strategies; Increase brand awareness and market share; Improve sales conversion rates and overall sales performance
 
 The commercial model was mainly based on market research and analysis data, used to identify consumer demand patterns and market trends to support sales decisions.
 Inspired by this model, I created this open-source project using publicly available datasets.
@@ -24,85 +20,85 @@ Inspired by this model, I created this open-source project using publicly availa
 
 The project aims to achieve the following goals:
 
-•	Predict consumers’ car budgets
+Predict consumers’ car budgets
 
-•	Generate reasonable pricing and sales strategies based on budgets and user features
+Generate reasonable pricing and sales strategies based on budgets and user features
 
-•	Optimize pricing decisions through reinforcement learning, balancing profits and conversion rates
+Optimize pricing decisions through reinforcement learning, balancing profits and conversion rates
 
 4.Use Cases
 
-For Car Buyers:
-  
-  •When users are interested in buying a car but are unsure of their budget, the model can estimate a recommended budget based on user data such as Annual Salary, Net Worth, and Age.
+For Car Buyers: 
+
+When users are interested in buying a car but are unsure of their budget, the model can estimate a recommended budget based on user data such as Annual Salary, Net Worth, and Age.
     
 For Car Sales Personnel:
   
-  •	Predict potential customers’ budgets
-    
-  •	Reference recommended pricing and sales strategies
-    
-  •	Help improve the likelihood of closing a sale
-
+It can predict potential customers’ budgets, reference recommended pricing and sales strategies and help improve the likelihood of closing a sale
 
 5.Methodology
 
 This project uses a combination of machine learning and reinforcement learning methods:
 
-5.1 Customer Clustering (Clustering)
+5.1 Customer Clustering 
 
-  •	Use K-Means to cluster consumers
-  
-  •	Explore purchase preferences and behavior characteristics of different user groups
+Use K-Means to cluster consumersand explore purchase preferences and behavior characteristics of different user groups
   
 5.2 Budget Prediction
 
-  •	Use XGBoost to predict the budget range based on user features and historical data
+Use XGBoost to predict the budget range based on user features and historical data
   
-5.3 Car Recommendation (Recommendation)
+5.3 Car Recommendation (KNN)
 
-  •	Based on the predicted budget, use KNN to find the three cars with prices closest to the budget
+Based on the predicted budget, use KNN to find the three cars with prices closest to the budget
   
 5.4 Pricing Strategy Optimization (Reinforcement Learning)
 
-  •	Build a Sales Simulation Environment
+Build a Sales Simulation Environment
   
-  •	Train a Q-Learning agent
+Train a Q-Learning agent
   
-  •	Learn optimal pricing strategies over 1000+ iterations
+Learn optimal pricing strategies over 1000+ iterations
   
-  •	Balance profit maximization and conversion rate
+Balance profit maximization and conversion rate
   
 6.Data Source
 
-All data used in this project come from publicly available datasets
+  From publicly available datasets: 
+  
+  url = 'https://raw.githubusercontent.com/pritom02bh/Car-Purchase-Amount-Prediction-Project-for-Car-Industry/master/Car_Purchasing_Data.csv'
 
 
 7.Model Outputs
 
 The model can produce the following outputs:
 
-  •	Predicted consumer car budgets
+Predicted consumer car budgets
   
-  •	Consumer clustering labels
+Consumer clustering labels
   
-  •	Pricing and sales strategy suggestions for different user groups
+Pricing and sales strategy suggestions for different user groups
   
-  •	Performance of different pricing strategies in the simulation environment in terms of profit and conversion rate
+Performance of different pricing strategies in the simulation environment in terms of profit and conversion rate
 
+8.Model Performance Evaluation
 
-8.Limitations
+The budget prediction model (XGBoost) was evaluated using $R^2$ Score and Mean Absolute Error (MAE):
 
-  •	Public datasets may have limitations in accuracy and completeness
-  
-  •	Reinforcement learning is based on a simulated market environment
-  
-9.Future Work
+<img width="343" height="55" alt="image" src="https://github.com/user-attachments/assets/8bbb223d-d673-4fae-9765-f6a3e4eb1678" />
 
-  •	Use larger-scale, real-time market data
+9.Limitations
+
+Public datasets may have limitations in accuracy and completeness and reinforcement learning is based on a simulated market environment.
   
-  •	Introduce more complex consumer decision behavior modeling
+10.Future Work
+
+So, future work can consider the following:
+
+Use larger-scale, real-time market data
   
-  •	Explore deep reinforcement learning methods
+Introduce more complex consumer decision behavior modeling
   
-  •	Extend the model to real-world car models and brand pricing scenarios
+Explore deep reinforcement learning methods
+  
+Extend the model to real-world car models and brand pricing scenarios
